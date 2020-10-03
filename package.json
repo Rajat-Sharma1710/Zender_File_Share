@@ -4,7 +4,7 @@
   "description": "File sharing via link or via email",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node app.js"
   },
   "author": "Rajat Sharma",
   "license": "ISC",
