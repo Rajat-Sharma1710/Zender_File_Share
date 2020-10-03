@@ -5,7 +5,7 @@ const download=require('./routes/download')
 const startdowmload=require('./routes/startdownload')
 const path=require('path')
 const app=express()
-const Port= process.env.Port || 3000;
+const Port= process.env.PORT || 3000;
 
 // const corsOptions = {
 //     origin: process.env.ALLOWED_CLIENTS.split(',')
