@@ -1,0 +1,21 @@
+{
+  "name": "zender_app",
+  "version": "1.0.0",
+  "description": "File sharing via link or via email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajat Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  }
+}
