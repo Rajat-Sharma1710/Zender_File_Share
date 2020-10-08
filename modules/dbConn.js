@@ -1,6 +1,6 @@
 var mongoose=require("mongoose");
 require('dotenv').config();
-mongoose.connect(process.env.db_URL,{useNewUrlParser: true,useCreateIndex: true, useUnifiedTopology: true,});
+mongoose.connect(process.env.Mongo_URL,{useNewUrlParser: true,useCreateIndex: true, useUnifiedTopology: true,});
 var conn=mongoose.connection;
 
 var passSchema=mongoose.Schema({
@@ -30,5 +30,5 @@ var passSchema=mongoose.Schema({
    }
 },{ timestamps:true})
 
-var filedbModel=mongoose.model("fileApp",passSchema)
+var filedbModel=mongoose.model("files",passSchema)
 module.exports=filedbModel;

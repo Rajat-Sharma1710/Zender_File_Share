@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zender-file Sharing</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="dropZone">
+            <div class="imag">
+                <img src="/img/fileshare.jpg" alt="image not load!" class ="center" draggable="false">
+                <img src="/img/fileshare.jpg" alt="image not load!" class ="first" draggable="false">
+                <img src="/img/image3.jpg" alt="image not load!" class ="last" draggable="false">
+            </div>
+            <input id="mainfile" type="file" >
+            <div class="detail"> Drag File here to Send or, <span class="browse"> browse </span></div>
+        </div>
+        <div class="progressbar">
+            <div class="main_progress">
+            </div>
+            <div class="pro_material">
+                <div id="title">Uploading...</div>
+                <div class="percen"> <span id="per">0</span>%</div>
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <div class="copyURL">
+            <p id="notification"> Link expires in 24hrs</p>
+            <div class="urlcontainer">
+                <input type="text" id="URLori" readonly >
+                <img class="copytag" src="/img/copy.svg" alt="copy icon">
+            </div>
+        </div>
+    </section>
+  
+    <script src="/javascript.js">
+
+    </script>
+</body>
+</html>
